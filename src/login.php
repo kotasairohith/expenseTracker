@@ -1,10 +1,11 @@
-<?php ?>
-
-<?php 
-
-include('common.php');
-head();
-?>
+<!DOCTYPE html>
+		<html lang="en">
+		<head>
+			<title>NerdLuv</title>
+		<link rel="stylesheet" href="style.css">
+		</head>
+		<body>
+		<img src="logo.png" alt="logo" width=70 height=70 >
 
 	<form action="signup-submit.php" method="post" class="newuser_data">
 		<center><h2>Sign in</h2></center>
@@ -15,12 +16,7 @@ head();
 		<input type="submit" value="&#128274; Sign In" class="submit">
 		<div class="newuser">New? &nbsp;&nbsp;<a href="signup.php">Create an account.</a></div>
 	</form>
-
-
-<?php
-
-	foot();
-?>
+			
 </div>
 
 </body>
